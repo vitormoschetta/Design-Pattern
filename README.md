@@ -1,8 +1,11 @@
 ![alt text](images/quadro.jpg?raw=true=250x250 "Title")
 <br>
 
-## Um bom tutorial
+
+## Bons materiais
+
 <https://refactoring.guru/>
+<br>
 <br>
 
 
@@ -21,7 +24,7 @@ obs 2: Alguns padrões podem ter mais de uma pasa 'Pattern'. Isto significa que 
 <br>
 
 
-###### Mais detalhes sobre os padrões são encontrados em seus próprios READMEs, em seus próprios repositórios.
+##### Mais detalhes sobre os padrões são encontrados em seus próprios READMEs, em seus próprios repositórios.
 
 
 
