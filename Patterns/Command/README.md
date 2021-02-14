@@ -2,7 +2,7 @@
 
 Em uma API Web, por exemplo, ao invés de expormos vários _end-points_ (um para cada objeto), deixamos apenas um método recebendo um _Command_.
 
-_Command_ seria um objeto que contém em suas propriedades os identificadores necessários para que possamos tomar as decisões com base nestes identificadores.
+_Command_ seria um objeto que contém em suas propriedades identificadores suficientes para que possamos tomar decisões com base neles.
 
 Exemplificando, observe o código abaixo:
 ```
