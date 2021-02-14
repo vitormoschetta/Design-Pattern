@@ -17,7 +17,7 @@ namespace Pattern
 
             facade.ConsultarCredito(cliente);
 
-            // Veja como ficou lindo o método acima. Simples. Ficou como uma bela "Fachada".
+            // Veja como ficou limpo o método acima. Simples. Ficou como uma bela "Fachada".
             // É isso que o padrão Facade faz, deixa uma bela "Fachada para o usuário, enquanto
             // o processo mais complexo ocorre "por baixo dos panos".
         }

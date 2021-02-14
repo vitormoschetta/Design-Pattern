@@ -1,6 +1,6 @@
 ## Adapter
 
-O padrão Adapter tem o objetivo de converter a interface de uma classe em outra interface esperada pelos clientes. Ou seja, permite a comunicação entre classes que não poderiam trablhar juntas devido à incompatibilidade de suas interfaces.
+O padrão Adapter tem o objetivo de converter a interface de uma classe em outra interface esperada pelos clientes. Ou seja, permite a comunicação entre classes que não poderiam trabalhar juntas devido à incompatibilidade de suas interfaces.
 
 Há duas formas de aplicar o padrão Adapter:
 
