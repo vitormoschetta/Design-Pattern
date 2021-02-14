@@ -6,12 +6,12 @@ _Command_ seria um objeto que contém em suas propriedades identificadores sufic
 
 Exemplificando, observe o código abaixo:
 ```
-public void GetCustomer(string doc)
+public Customer GetCustomer(string doc)
 {
     return repository.getCustomer(doc);
 }
 
-public void GetProvider(string doc)
+public Provider GetProvider(string doc)
 {
     return repository.getProvider(doc);
 }
@@ -22,7 +22,7 @@ No exemplo acima temos dois _end-points_, um para consultar um determinado clien
 Utilizando o Pattern Command, poderíamos fazer assim:
 
 ```
-public void Get(ICommand command)
+public ICommandResult Get(ICommand command)
 {
     if (command.type == "customer")
         return repository.getCustomer(command.doc);
