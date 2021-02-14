@@ -22,7 +22,7 @@ No exemplo acima temos dois _end-points_, um para consultar um determinado clien
 Utilizando o Pattern Command, poderíamos fazer assim:
 
 ```
-public ICommandResult Get(ICommand command)
+public dynamic Get(ICommand command)
 {
     if (command.type == "customer")
         return repository.getCustomer(command.doc);
